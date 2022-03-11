@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Linagora
+# This file is distributed under the same license as the Twake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Twake 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-11 09:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:2 4e1c0abff90f41c0b863ccc40e4fbe20
+msgid "COUCOUCOUCOUC documentation!"
+msgstr ""
+
+#: ../../index.rst:4 1d2e3c7762eb4dd9820ecec1ad62224d
+msgid ""
+"**Lumache** (/lu'make/) is a Python library for cooks and food lovers "
+"that creates recipes mixing random ingredients. It pulls data from the "
+"`Open Food Facts database <https://world.openfoodfacts.org/>`_ and offers"
+" a *simple* and *intuitive* API."
+msgstr ""
+
+#: ../../index.rst:9 14b05ab7f1ea43ad8007fe8338fdaf6b
+msgid ""
+"Check out the :doc:`usage` section for further information, including how"
+" to :ref:`installation` the project."
+msgstr ""
+
+#: ../../index.rst:14 5e783abda3c041428aa8cb660d453577
+msgid "This project is under active development."
+msgstr ""
+
+#: ../../index.rst:17 4df2f6b925234ccb981e7db0b2f2c2a5
+msgid "Contents"
+msgstr ""
+
