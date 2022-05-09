@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'Twake'
-copyright = '2022, Linagora'
-author = 'Linagora'
+copyright = '2021, Twake'
+author = 'Twake'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,7 +17,14 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser'
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -27,17 +34,9 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-
-
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-# For translation
-gettext_uuid = True
-gettext_compact = False
-locale_dirs = ['../locales/']
-language= ["en","fr"]
