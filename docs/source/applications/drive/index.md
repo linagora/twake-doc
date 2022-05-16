@@ -1,23 +1,23 @@
 ---
-description: Comment utiliser le Drive de Twake
+description: How to use Twake drive
 ---
 
-#  Drive
+# Drive
 
-## Partagez un fichier avec un lien public
+## Share a file with a public link
 
-Dans Twake, vous pouvez partager vos dossiers et fichier à un utilisateur externe. Il suffit de de créer un lien public pour le document ou le dossier et le partager. Les externes cliquants sur le lien pourront accéder à ces documents sans avoir besoin d'un compte Twae.
+In Twake, you can share your folders and files to an external user. Just create a public link for the document or folder and share it. External users clicking on the link will be able to access these documents without needing a Twake account.
 
-### Créer un lien public
+### Create a public link
 
-Pour créer ce lien, cliquez sur le menu en bout de ligne du document ou du dossier à partager, puis sur `Accès public` &gt; `Créer un lien d'accès`. Vous pouvez à présent copier le lien et le partager.
+To create this link, click on the end menu of the document or folder you want to share, then on `Public Access` &gt; `Create Access Link`. You can now copy the link and share it.
 
 ![](../../assets/public-access.gif)
 
 
-### Supprimer un lien public
+### Delete a public link
 
-Une fois le lien créé, il reste actif tant qu'il n'est pas supprimé. Si vous voulez le supprimer, il suffit de reprendre les étapes précédentes: cliquez sur le menu en bout de ligne du document ou du dossier à partager, puis sur `Accès public` &gt; `Créer un lien d'accès` &gt; `Supprimer le lien`.
+Once a link is created, it remains active until it is deleted. If you want to delete it, just repeat the previous steps: click on the end menu of the document or folder you want to share, then on `Public Access` &gt; `Create Access Link` &gt; `Delete Link`.
 
 ![](../../assets/sans-titre-2.gif)
 

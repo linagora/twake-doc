@@ -1,110 +1,111 @@
 ---
-description: Fonctionnement des Entreprises et des Espaces de travail sur Twake
+description: Functioning of Companies and Workspaces on Twake
 ---
 
-#  Entreprises & Espaces de travail
+# Business & Workspace
 
-## Entreprises
+## Companies
 
-Les entreprises (companies en anglais) sont les entités les plus larges sur Twake. Une entreprise est la représentation virtuelle de votre boîte. Vous y trouverez l'ensemble de vos salariés, et des connecteurs que vous avez développés spécifiquement. Les espaces de travail sont des espaces au sein d'une entreprise.
+Companies are the largest entities on Twake. A company is the virtual representation of your company. You'll find all your employees in it, as well as connectors that you've developed specifically. Workspaces are spaces within a company.
 
-Vous pouvez appartenir à plusieurs entreprises, pour changer d'entreprise, il suffit de cliquer sur le bouton en bas à gauche de l'écran:
+You can belong to several companies, to change company, just click on the button at the bottom left of the screen:
 
 ![](../assets/changecomp.gif)
 
 <!--- La distinction Entreprise/Espace de travail mériterait d'être complétée pour être plus claire --->
 
-## Espace de travail
+## Workspace
 
-Les espaces de travail (workspace en anglais) représentent les équipes ou les départements de votre organsisation. Chaque espace de travail a ses propres membres, discussions, fichiers, tâches et calendrier. C'est l'espace dans lequel votre équipe collabore.
-Les espaces de travail sont listés tout à gauche de l'écran.
+Workspaces represent the teams or departments of your organization. Each workspace has its own members, discussions, files, tasks and calendar. This is the space in which your team collaborates.
+The workspaces are listed on the left side of the screen.
 
 
-## Inviter un utilisateur depuis le Chat
+## Invite a User from Chat
 
-Vous pouvez inviter un utilisateur à partir de votre espace de travail.
+You can invite a user from your workspace.
 
-Pour ce faire, ouvrez le menu en cliquant sur le nom de l'espace de travail, cliquez sur `Utilisateurs` &gt; `Inviter des utilisateurs`, puis tapez l'email de vos collègues \(séparés par des virgules\) à ajouter à l'espace de travail, puis cliquer sur Ajouter. Vous pouvez aussi générer un lien d'invitation à rejoindre l'espace de travail.
+To do this, open the menu by clicking on the workspace name, click on `Users` &gt; `Invite Users`, then type in the email of your colleagues \(separated by commas\) to add to the workspace, then click Add. You can also generate an invitation link to join the workspace.
 
 ![](../assets/invitefromtwake.gif)
 
 
 
-Vous pouvez aussi inviter des utilisateurs à partir de la console, référez-vous à la page dédiée : Console > Utilisateurs
+You can also invite users from the console, refer to the dedicated page: Console > Users
 
 
 
 
 
-# Gestion des droits
+# Rights management
 
-Twake support de un définition fine des droits. Chaque utilisateur appartient à un ou plusieurs espaces de travail dans une même entreprise. Ils peuvent par ailleurs avoir différents statuts en fonction de leur appartenance à une entreprise ou un espace de travail.
+Twake supports a fine definition of rights. Each user belongs to one or more workspaces in the same company. They can also have different statuses depending on whether they belong to a company or a workspace.
 
-## Propriétaire (Owner)
+## Owner
 
-Le propriétaire est l'administrateur principale d'une entreprise. Il peut : 
+The owner is the main administrator of a company. He can : 
 
-* Permettre l'installation de connecteurs et d'applications dans les espaces de travail
-* Changer l'identité de l'entreprise
-* Donner et retirer les droits associé au rôle "Admin de l'entreprise" à un membre de cette entreprise
+* Allow connectors and applications to be installed in workspaces
+* Change the company's identity
+* Give and remove the rights associated with the "Company Admin" role to a member of the company
 
-Le créateur de l'entreprise est le seul propriétaire. Seul le propriétaire de l'entreprise peut transmettre son status de propriétaire.
+The creator of the company is the only owner. Only the owner of the company can transfer the owner status.
 
 
 
 ## Admin
 
-Un admin a les mêmes droits que le propriétaire. Il peut:
+An admin has the same rights as the owner. He can:
 
-* Permettre l'installation de connecteurs et d'applications dans les espaces de travail
-* Changer l'identité de l'entreprise
-* Donner et retirer les droits associé au rôle "Admin de l'entreprise" à un membre de cette entreprise
+* Allow the installation of connectors and applications in the workspaces.
+* Change the company's identity
+* Give and remove the rights associated with the "Company Admin" role to a member of the company
 
-Pour donner le rôle d'admin, ouvrez la console \([console.twake.app](https://console.twake.app)\), dans le menu, ouvrez la section `Membres`, puis cliquer sur `Éditer` sur le membre dont vous souhaitez modifier le rôle et sélectionnez `Admin` avant de sauvegarder.
+To give the admin role, open the console \([console.twake.app](https://console.twake.app)\), in the menu, open the `Members` section, then click `Edit` on the member whose role you wish to change and select `Admin` before saving.
 
 ![](../assets/setadmin.gif)
 
 
 
-## Administrateur d'espace de travail
+## Workspace Administrator
 
-Ce rôle est celui de l'admin de l'équipe. En plus des droits d'un utilisateur classique, il peut:
+This role is the admin of the team. In addition to the rights of a regular user, he can:
 
-* Ajouter des membres à l'espace de travail
-* Ajouter\/enlever des connecteurs et application de l'espace de travail
-* Changer l'identité de l'espace de travail
-* Supprimer l'espace de travail
+* Add members to the workspace
+* Add\/remove connectors and applications from the workspace
+* Change the identity of the workspace
+* Delete the workspace
 
-Par défaut, le créateur de l'espace de travail hérite du rôle d'admin de cet espace. Ce rôle peut être cumulé avec celui d'admin de l'entreprise.
+By default, the workspace creator inherits the workspace admin role. This role can be combined with the company admin role.
 
-Pour donner le rôle d'admin au niveau d'un espace de travai, ouvrez le menu en cliquant sur le nom de l'espace de travail, cliquez sur `Utilisateurs`, ouvrez le menu en bout de ligne du membre souhaité et sélectionnez `Administrateur`.
+To give the role of admin to a workspace, open the menu by clicking on the workspace name, click on `Users`, open the menu at the end of the line of the desired member and select `Admin`.
 
 ![](../assets/setwsadmin.gif)
 
 
 
-## Utilisateur
 
-Le rôle d'utilisateur est le rôle par défaut des membres de l'espace de travail. Il peut:
+## User
 
-* Lire et envoyer des messages sur les cannaux de chat privés \(ceux auxquels il a été invité\) et publics
-* Créer, modifier, supprimer des documents du drive
-* Créer, éditer, supprimer des évènement et des calendriers
-* Créer, modifier, supprimer des tâches 
-<!-- Qu'est-ce que "tables" dans la version anglaise? --> 
-* Créer un espace de travail dans l'entreprise
+The user role is the default role for workspace members. It can:
 
-Comme c'est le rôle par défaut, c'est le rôle attribué à tout utilisateur qui n'est ni administrateur de l'entreprise, ni administrateur de l'espace de travail, ni invité.
+* Read and send messages on the private \(those to which he has been invited\) and public chat channels
+* Create, edit, delete documents in the drive
+* Create, edit, delete events and calendars
+* Create, edit, delete tasks 
+<!-- What is "tables" in the English version? --> 
+* Create a workspace in the company
 
-## Invité
+Since this is the default role, it is the role assigned to any user who is neither a company administrator, workspace administrator, nor guest.
 
-Ce rôle est prévu pour les partenaires externes à l'organisation qui nécessitent un accès à Twake dans le cadre d'un projet ou sujet spécifique. Un utilisteur invité peut:
+## Guest
 
-* Lire et envoyer des messages dans les chaînes auxquelles il a été invité
+This role is intended for partners external to the organization who require access to Twake for a specific project or topic. A guest user can:
 
-En tant qu'invité, ils ne peuvent pas rejoindre n'importe quelle chaîne par eux même - même s'il est public. Ils doivent être invités par un utilisateur ayant au moins le droit Utilisateur.
+* Read and send messages in the channels to which they have been invited.
 
-Pour donner le rôle d'invité à un utilisateur, modifiez son rôle dans la console \([console.twake.app](https://console.twake.app)\), en passant par la page `Utilisateurs`.
+As a guest, they cannot join any channel by themselves - even if it is public. They must be invited by a user with at least User right.
+
+To give a user the guest role, change their role in the console \([console.twake.app](https://console.twake.app)\), via the `Users` page.
 
 ![](../assets/setguest.gif)
 
